@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Vehicle name="odysseyhdepol">
+    <Interface>
+        <Value ExpressMode="true" />
+        <Value VehicleAsSiren="false" />
+    </Interface>
+    <Sounds>
+        <!-- Die wichtigsten ELS-Töne für deutsche Sirenen -->
+        <MainSiren AudioString="SIRENS_AIRHORN" />
+        <SirenTone1 AudioString="RESIDENT_VEHICLES_SIREN_WAIL" />
+        <SirenTone2 AudioString="RESIDENT_VEHICLES_SIREN_YELP" />
+        <SirenTone3 AudioString="RESIDENT_VEHICLES_SIREN_QUICK_YELP" />
+    </Sounds>
+    <Extras>
+        <Extra ExtraID="1" Enabled="true" IsEls="true" />
+        <Extra ExtraID="2" Enabled="true" IsEls="true" />
+        <Extra ExtraID="3" Enabled="true" IsEls="true" />
+        <Extra ExtraID="4" Enabled="true" IsEls="true" />
+        <Extra ExtraID="5" Enabled="true" IsEls="true" />
+        <Extra ExtraID="6" Enabled="true" IsEls="true" />
+        <Extra ExtraID="7" Enabled="true" IsEls="true" />
+        <Extra ExtraID="8" Enabled="true" IsEls="true" />
+        <Extra ExtraID="9" Enabled="true" IsEls="true" />
+    </Extras>
+</Vehicle>
